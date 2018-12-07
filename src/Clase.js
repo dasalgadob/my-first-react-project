@@ -12,7 +12,7 @@ class Clase extends Component {
           number: 1,
           text: "Activo"
       }
-  }  
+  }
 
   render() {
     const phrase ="Welcome to my first react project using create-react-app!";
@@ -22,7 +22,7 @@ class Clase extends Component {
     };
 
     return (
-      <div className="Clase"> 
+      <div className="Clase">
       <h2>{this.props.title}</h2>
       <form>
           <div className="form-group">
@@ -36,7 +36,7 @@ class Clase extends Component {
           </div>
 
           <div className="form-group">
-            <button type="submit" className="btn btn-success">{this.props.title}</button>
+            <button id="submit" type="submit" className="btn btn-success">{this.props.title}</button>
           </div>
       </form>
       </div>
